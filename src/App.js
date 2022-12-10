@@ -59,13 +59,13 @@ function App() {
           src={snowflake}
           className="Snowflake"
           alt="snowflake-right"
-          style={{ right: "34px" }}
+          style={{ right: "5%" }}
         />
         <img
           src={snowflake}
           className="Snowflake"
           alt="snowflake-left"
-          style={{ left: "34px" }}
+          style={{ left: "5%" }}
         />
       </footer>
     </div>
