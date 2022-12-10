@@ -34,7 +34,7 @@ function App() {
         <h1>SANTA</h1>
       </header>
       <div className="Body">
-        <text>Select Donor Name</text>
+        <text>Select Santa</text>
         <select
           className="Doner"
           onChange={handleChange}
@@ -50,7 +50,7 @@ function App() {
             </option>
           ))}
         </select>
-        <text>Donee Name</text>
+        <text>Giftee Name</text>
         <p className="Donee">{giftee}</p>
       </div>
       <footer className="Footer">
