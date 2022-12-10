@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  background-color: #9a1c27;
+  min-height: 100vh;
+}
+
+.Title {
+  padding-top: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Title h1 {
+  margin: 20px;
+  font-family: "Italianno";
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.021em;
+  color: #f2f2f2;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-top: 15px;
+}
+
+.Title h2 {
+  margin: 20px;
+  font-family: cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 36px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.021em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Body {
+  padding-top: 60px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  width: 690px;
+  height: 298px;
+}
+
+.Body text {
+  font-family: "Italianno";
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.074em;
+}
+
+.Body select {
+  margin: 0px;
+  font-family: "Italianno";
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 104px;
+  letter-spacing: 0.074em;
+  padding-left: 22px;
+  color: #045323;
+  width: 690px;
+  height: 104px;
+
+  border-radius: 6px;
+}
+
+.Body p {
+  margin: 0px;
+  text-align: left;
+  text-indent: 22px;
+  background-color: rgba(247, 245, 255, 0.3);
+  font-family: "Italianno";
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 104px;
+  letter-spacing: 0.074em;
+  color: #045323;
+  width: 690px;
+  height: 104px;
+
+  border-radius: 6px;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 62px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  padding-top: 72px;
+  z-index: 3;
+}
+
+.Footer h3 {
+  font-family: "Italianno";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.056em;
+  color: #fff3e6;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.Stockings {
+  height: 277px;
+  pointer-events: none;
+  position: absolute;
+  top: 41px;
+  left: 32px;
+}
+
+.Stamp {
+  height: 140px;
+  pointer-events: none;
+  position: absolute;
+  top: 43px;
+  right: 43px;
+}
+
+.Snowflake {
+  height: 70px;
+  position: absolute;
+}
