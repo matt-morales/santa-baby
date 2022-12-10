@@ -16,13 +16,11 @@ const pairs = [
 ];
 
 function App() {
-  const [santa, setSanta] = useState();
   const [giftee, setGiftee] = useState();
 
   const handleChange = (e) => {
     const value = e.target.value;
-    if (value != "DEFAULT") {
-      setSanta(pairs[value][0]);
+    if (value !== "DEFAULT") {
       setGiftee(pairs[value][1]);
     }
   };
