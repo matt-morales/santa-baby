@@ -5,18 +5,17 @@
 }
 
 .Title {
-  padding-top: 232px;
+  padding-top: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .Title h1 {
-  margin: 20px;
+  margin: 1%;
   font-family: "Italianno";
-  font-size: 96px;
+  font-size: 10vw;
   font-weight: 700;
   line-height: 36px;
   display: flex;
@@ -26,13 +25,13 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  padding-top: 15px;
+  padding-top: 1%;
 }
 
 .Title h2 {
   margin: 20px;
   font-family: cursive;
-  font-size: 60px;
+  font-size: 7vw;
   font-weight: 400;
   line-height: 36px;
   display: flex;
@@ -45,14 +44,14 @@
 }
 
 .Body {
-  padding-top: 60px;
+  padding-top: 10%;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 2%;
 
-  width: 690px;
+  width: 90%;
   height: 298px;
 }
 
@@ -60,7 +59,7 @@
   font-family: "Italianno";
   color: #ffffff;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 3.5vw;
   line-height: 36px;
   letter-spacing: 0.074em;
 }
@@ -69,13 +68,13 @@
   margin: 0px;
   font-family: "Italianno";
   font-weight: 600;
-  font-size: 50px;
+  font-size: 5vw;
   line-height: 104px;
   letter-spacing: 0.074em;
-  padding-left: 22px;
+  padding-left: 4%;
   color: #045323;
-  width: 690px;
-  height: 104px;
+  width: 100%;
+  height: 30%;
 
   border-radius: 6px;
 }
@@ -83,16 +82,16 @@
 .Body p {
   margin: 0px;
   text-align: left;
-  text-indent: 22px;
+  text-indent: 4%;
   background-color: rgba(247, 245, 255, 0.3);
   font-family: "Italianno";
   font-weight: 600;
-  font-size: 50px;
+  font-size: 5vw;
   line-height: 104px;
   letter-spacing: 0.074em;
   color: #045323;
-  width: 690px;
-  height: 104px;
+  width: 100%;
+  height: 30%;
 
   border-radius: 6px;
 }
@@ -107,13 +106,13 @@
   flex: none;
   order: 3;
   flex-grow: 0;
-  padding-top: 72px;
+  padding-top: 5%;
   z-index: 3;
 }
 
 .Footer h3 {
   font-family: "Italianno";
-  font-size: 30px;
+  font-size: 4vw;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: -0.056em;
@@ -124,7 +123,7 @@
 }
 
 .Stockings {
-  height: 277px;
+  width: 25%;
   pointer-events: none;
   position: absolute;
   top: 41px;
@@ -132,7 +131,7 @@
 }
 
 .Stamp {
-  height: 140px;
+  width: 25%;
   pointer-events: none;
   position: absolute;
   top: 43px;
@@ -140,6 +139,6 @@
 }
 
 .Snowflake {
-  height: 70px;
+  width: 15%;
   position: absolute;
 }
