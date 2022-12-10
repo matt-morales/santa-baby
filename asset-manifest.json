@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/santa-baby/static/css/main.06686c47.css",
+    "main.css": "/santa-baby/static/css/main.c9a6dd8b.css",
     "main.js": "/santa-baby/static/js/main.edf819b8.js",
     "static/media/stockings.svg": "/santa-baby/static/media/stockings.d617cc2c6399305f0935b0ce79ab521d.svg",
     "static/media/stamp.svg": "/santa-baby/static/media/stamp.5b4aa9ea09bd92f476c986b72acbc483.svg",
     "static/media/snowflake.svg": "/santa-baby/static/media/snowflake.96ddf514af163a6895813a099ba369a3.svg",
     "index.html": "/santa-baby/index.html",
-    "main.06686c47.css.map": "/santa-baby/static/css/main.06686c47.css.map",
+    "main.c9a6dd8b.css.map": "/santa-baby/static/css/main.c9a6dd8b.css.map",
     "main.edf819b8.js.map": "/santa-baby/static/js/main.edf819b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.06686c47.css",
+    "static/css/main.c9a6dd8b.css",
     "static/js/main.edf819b8.js"
   ]
 }
