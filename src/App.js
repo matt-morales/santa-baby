@@ -12,7 +12,7 @@ const pairs = [
   ["Saranne Richter", "Matthew Morales"],
   ["Matthew Morales", "Issam Richter"],
   ["Pauline Frank", "Victoria Richter"],
-  ["Banjamin Richter", "Stefan Richter"],
+  ["Benjamin Richter", "Stefan Richter"],
 ];
 
 function App() {
